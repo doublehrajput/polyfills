@@ -1,0 +1,24 @@
+{
+  "name": "polyfills",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "repository": "git@github.com:doublehrajput/polyfills.git",
+  "author": "Harish Rajput <doublehrajput@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "@types/jest": "^27.4.1",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.11.0",
+    "jest": "^27.5.1",
+    "prettier": "2.6.0"
+  },
+  "scripts": {
+    "test:watch": "jest",
+    "test:coverage": "jest --ci --coverage",
+    "lint": "eslint src/**/*.js",
+    "prettier:check": "prettier --check src/\"**/*.+(js|jsx|json|css|md|yml)\"",
+    "prettier:format": "prettier --write src/\"**/*.+(js|jsx|json|css|md|yml)\""
+  }
+}

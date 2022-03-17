@@ -1,0 +1,54 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:jest/recommended",
+    "plugin:react/recommended",
+    "plugin:testing-library/react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "comma-dangle": "off",
+    "eol-last": "error",
+    "jsx-quotes": ["warn", "prefer-double"],
+    "max-len": [
+      "warn",
+      {
+        "code": 120
+      }
+    ],
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "object-curly-spacing": ["warn", "always"],
+    "semi": "warn",
+    "jest/no-focused-tests": "off",
+    "jest/no-test-prefixes": "off",
+    "react/prop-types": "off",
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

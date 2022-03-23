@@ -12,5 +12,6 @@
     "lib": ["DOM", "ES5"]
   },
   "exclude": ["./node_modules", "./build", "./public"],
-  "include": ["./src/**/*", "./__tests__/**/*"]
+  "include": ["./src/**/*", "./__tests__/**/*",
+    "./lib/**/*"]
 }

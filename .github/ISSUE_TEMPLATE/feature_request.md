@@ -1,7 +1,7 @@
 ---
 name: ✨ Feature Request
 about: I have a suggestion (and may want to build it 💪)!
-labels: enchancement
+labels: enhancement
 ---
 
 ## Feature Request
